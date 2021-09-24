@@ -21,7 +21,7 @@ inputPassword.addEventListener("keyup", () => {
 ordinaryButton.addEventListener('click', () => {
     if(inputId.value === "aaa" && inputPassword.value === "111"){
         alert("로그인 성공");
-        window.location = "./index1.html";
+        window.location = "https://yhddream.github.io/proj001/index.html";
     } else {
         alert("로그인 실패");
     }
