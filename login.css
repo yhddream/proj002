@@ -67,28 +67,18 @@ body {
     display: block;
 }
 
-/* background-color: #00aeff; */
-
-
 .otherLogin1 {
-    margin-top: 5px;
-    margin-bottom:5px;
-    margin-left:40px;
-    background-color: #ffaeff;
-    height: 37px;
-    box-sizing: border-box;
-    border: 1px solid gray;
-    border-radius: 5px;
-    color: #ffffff;
-    font-size: 15px;
-    font-weight: 700;
+  background-color: #ffaeff;
 }
 
 .otherLogin2 {
+  background-color: #99aeff;
+}
+
+.otherLogin1, .otherLogin2 {
     margin-top: 5px;
     margin-bottom:5px;
     margin-left:40px;
-    background-color: #99aeff;
     height: 37px;
     box-sizing: border-box;
     border: 1px solid gray;
@@ -99,7 +89,7 @@ body {
 }
 
 .otherIcon {
-    width:62px;
+    width:55px;
 }
 
 ._boxOtherLogin {
