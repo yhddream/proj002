@@ -6,7 +6,17 @@ let inputPassword = inputTag[1];
 
 let ordinaryButton = buttonArray[0];
 let facebookLoginButton = buttonArray[1];
-let instagramLoginButton = buttonArray[2];
+
+// inputPassword.addEventListener("keyup", () => {
+//     if(inputId.value){
+//         ordinaryButton.classList.remove("unactivatedLoginColor");
+//         ordinaryButton.classList.add("activatedLoginColor");
+//     }
+//     if(!inputPassword.value){
+//         ordinaryButton.classList.remove("activatedLoginColor");
+//         ordinaryButton.classList.add("unactivatedLoginColor");
+//     }
+// })
 
 ordinaryButton.addEventListener('click', () => {
     if(inputId.value === "aaa" && inputPassword.value === "111"){
@@ -15,12 +25,4 @@ ordinaryButton.addEventListener('click', () => {
     } else {
         alert("로그인 실패");
     }
-})
-
-facebookLoginButton.addEventListener('click', () => {
-  alert("대체 로그인 준비중입니다. 아직 로그인 되지는 않습니다.");
-})
-
-instagramLoginButton.addEventListener('click', () => {
-  alert("대체 로그인 준비중입니다. 아직 로그인 되지는 않습니다.");
 })

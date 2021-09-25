@@ -42,6 +42,7 @@ body {
 
 
 .ordinaryLogin {
+
     height: 37px;
     margin-bottom: 10px;
     box-sizing: border-box;
@@ -51,8 +52,18 @@ body {
     font-size: 15px;
     font-weight: 700;
     background-color: #00aeff;
+
 }
 
+
+
+
+/* .unactivatedLoginColor {
+    background-color: #acd5e8;
+}
+.activatedLoginColor {
+    background-color: #00aeff;
+} */
 ._boxLogin * {
     width: 70%;
     margin-left: auto;
@@ -63,59 +74,95 @@ body {
     max-width: 175px;
 }
 
+
+
+
+
+
+
+
+
+
+
 .inlineToBlock {
+  /* background-color: tomato; */
+  text-align: center;
+
     display: block;
 }
 
-/* background-color: #00aeff; */
 
 
-.otherLogin1 {
-    margin-top: 5px;
-    margin-bottom:5px;
-    margin-left:40px;
-    background-color: #ffaeff;
+
+
+
+
+
+
+
+
+
+
+/*
+.hr_or_hr {
+    margin:10% 0;
+    width:100%;
+    box-sizing: border-box;
+}
+*/
+/* .hr_left {
+    float:left;
+    width:35%;
+    box-sizing: border-box;
+}
+.or{
+    float:left;
+    width:17%;
+    margin:2px 5%;
+    font-size: 13px;
+    box-sizing: border-box;
+    color: #999999;
+    font-size: 14px;
+    font-weight: 700;
+    margin:0px 15px;
+}
+.hr_right {
+    float: right;
+    width:35%;
+    box-sizing: border-box; */
+}
+/* .facebookLogin {
+    margin-top: 10px;
+    margin-bottom:10px;
+    background-color: rgba(255, 255, 255, 0.5);
     height: 37px;
     box-sizing: border-box;
-    border: 1px solid gray;
+    border: 0px;
     border-radius: 5px;
-    color: #ffffff;
+    color: #00628f;
     font-size: 15px;
     font-weight: 700;
+} */
+.facebookIcon {
+    width:13px;
 }
-
-.otherLogin2 {
-    margin-top: 5px;
-    margin-bottom:5px;
-    margin-left:40px;
-    background-color: #99aeff;
-    height: 37px;
-    box-sizing: border-box;
-    border: 1px solid gray;
-    border-radius: 5px;
-    color: #ffffff;
-    font-size: 15px;
-    font-weight: 700;
-}
-
-.otherIcon {
-    width:62px;
-}
-
-._boxOtherLogin {
+._boxAccount {
     background-color: #fcfcfc;
     margin-top: 10px;
-    padding: 10px;
+    padding: 15px;
     border: 1px solid #dfdfdf;
     border-radius: 10px;
 }
-._boxOtherLogin p {
+._boxAccount p {
     font-size: 14px;
     font-weight: 300;
     color: #333333;
 }
-._boxOtherLogin p a{
+._boxAccount p a{
     font-weight: 600;
+    text-align: center;
+
+    /* 두껍게 */
     color: #248ae3;
 }
 .no_underline {
